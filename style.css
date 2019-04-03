@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFE55C;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 960px;
+    margin: 3rem auto;
+}
+
+.timer {
+    background: #B1302A;
+    border-radius: 4px;
+    padding: 2rem;
+    height: 500px;
+}
+
+.timer-title {
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+.tagline {
+    font-size: 1rem;
+    font-style: italic;
+    padding: 1rem;
+}
+
+.timer-body{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.timer-day,
+.timer-hours,
+.timer-minutes,
+.timer-seconds {
+    font-size: 3rem;
+    border-radius: 50%;
+    background: #000;
+    border: 2px dashed white;
+    padding: 2rem;
+}
+
+.timer-label {
+    margin-top: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
